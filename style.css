@@ -1,0 +1,771 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, helvetica, Sans-Serif;
+}
+
+
+
+
+
+/* Header Section  */
+
+
+#header-section {
+    padding: 30px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
+    background-color: #f8f8f2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    transition: .3s;
+}
+
+.logo img:hover {
+    transform: scale(.8);
+}
+
+.navbar ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.navbar ul li:nth-child(1) {
+    color: #4ab57d;
+}
+
+.navbar ul li:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar ul li:nth-child(4) i {
+    margin: 0px 18px 0px 0px;
+}
+
+.navbar ul li:hover {
+    color: #4ab57d;
+
+}
+
+
+
+
+.header-main {
+    text-align: center;
+
+}
+
+.header-main i {
+    display: none;
+}
+
+
+.header-main h1 {
+    font-size: 72px;
+    margin: 16px 0px;
+    color: #fe7259;
+}
+
+.header-main h3 {
+    font-size: 40px;
+    margin: 16px 0px;
+
+
+}
+
+.header-main p {
+
+    font-size: 13px;
+}
+
+
+/* Header Section Closed  */
+
+
+
+
+
+
+
+
+
+/* About section  */
+
+
+#about-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 100px 0px;
+
+}
+
+.about-img img {
+    width: 560px;
+    height: 580px;
+}
+
+.about-details {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    background-color: #f8f8f2;
+    width: 480px;
+    height: auto;
+    text-align: justify;
+    padding: 60px 60px 0px 40px;
+
+}
+
+.about-details h1 {
+    color: #fe7259;
+    font-size: 40px;
+}
+
+.about-details p {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 24px 0px;
+}
+
+.about-details p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.about-details button {
+    background-color: #fe7259;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.about-details button:hover {
+    background-color: #f49e8f;
+}
+
+
+
+
+
+
+
+/* About section closed */
+
+
+
+
+
+
+
+
+
+
+
+/* Learn Program Section  */
+
+
+#learn-section {
+    background: #82bcdb;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.learn-head {
+    color: white;
+    text-align: center;
+
+}
+
+.learn-head h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 22px 0px;
+}
+
+.learn-head p {
+    font-size: 14px;
+    margin-bottom: 60px;
+    word-spacing: 5px;
+}
+
+
+
+.learn-cards {
+    display: flex;
+    justify-content: space-evenly;
+    background: url(assest/image/11062b_e55321c53b02478b9bafa28958160488f000\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.card1 {
+    width: 680px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+}
+
+.card-info {
+    padding: 60px;
+}
+
+.card-info h2 {
+    margin: 0px 0px 30px 0px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-info p {
+    font-size: 18px;
+    line-height: 1.75em;
+    color: #747272;
+
+}
+
+
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card1 img:hover {
+    transform: scale(1.1);
+}
+
+.learn-card2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card2 {
+    width: 436px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card2 img:hover {
+    transform: scale(.9);
+}
+
+
+
+#learn-section button {
+    background-color: #fe7259;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+#learn-section button:hover {
+    background-color: #f49e8f;
+}
+
+
+
+
+/* Learn Program Section Closed  */
+
+
+
+
+
+
+
+
+
+/* Testimonials section */
+
+
+#testi-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 100px 0px;
+}
+
+
+
+.testi-details {
+    position: relative;
+    top: 70px;
+    left: -50px;
+    background-color: #f8f8f2;
+    width: 480px;
+    height: fit-content;
+    text-align: justify;
+    padding: 60px 60px 60px 40px;
+}
+
+
+.testi-details h1 {
+    color: #fe7259;
+    font-size: 32px;
+}
+
+.testi-details p {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 84px 0px;
+}
+
+.testi-details span {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Testimonials section Closed */
+
+
+
+
+
+
+
+
+/* News Event Section */
+
+
+#slider-container {
+    background: #4ab57d;
+    padding: 46px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.slide1,
+.slide2 {
+    display: flex;
+    transition: all .5s;
+}
+
+.slide1 {
+    display: flex;
+    transform: translateX(50%);
+
+
+}
+
+.slide2 {
+    transform: translateX(80%);
+
+
+}
+
+
+
+
+.slider-head {
+    color: white;
+    text-align: center;
+
+}
+
+.slider-head h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 22px 0px;
+}
+
+.slider-head p {
+    font-size: 14px;
+    margin-bottom: 42px;
+    word-spacing: 5px;
+}
+
+.slide2 .slide-details button {
+    background-color: #fe7259;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+    margin: 40px 0px;
+}
+
+.slide2 .slide-details button:hover {
+    background-color: #f49e8f;
+
+}
+
+
+.slide2 .slide-details {
+    width: 480px;
+    height: 520px;
+    text-align: center;
+    padding: 60px 60px -50px 40px;
+    background-color: white;
+
+}
+
+
+
+
+.slide1 img {
+    width: 480px;
+    height: 520px;
+}
+
+.slide2 img {
+    width: 480px;
+    height: 520px;
+}
+
+
+
+
+.slide-details {
+    width: 480px;
+    height: 520px;
+    text-align: center;
+    padding: 60px 60px 60px 40px;
+    background-color: white;
+
+}
+
+
+.slide-details .jul {
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+    font-style: italic;
+    margin-top: 42px;
+}
+
+.slide-details h1 {
+    color: #fe7259;
+    font-size: 28px;
+}
+
+.slide-details p {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 24px 0px;
+
+}
+
+
+.slide-details p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.slide-details button {
+    background: transparent;
+    margin-top: 150px;
+    padding: 10px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #fe7259;
+    color: #fe7259;
+
+}
+
+.slide-details button i {
+    font-size: 12px;
+}
+
+.slide-details button:hover {
+    background-color: #fe7259;
+    color: white;
+}
+
+
+
+.slide-controls button:nth-child(1) {
+    position: absolute;
+    top: 62%;
+    left: 16px;
+}
+
+.slide-controls button:nth-child(2) {
+    position: absolute;
+    top: 62%;
+    right: 16px;
+}
+
+
+.prev-slide,
+.next-slide {
+    background: transparent;
+    border: none;
+    font-size: 42px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.fa-circle {
+    position: absolute;
+    bottom: 10px;
+    left: 49%;
+    font-size: 9px;
+    cursor: pointer;
+    color: white;
+    transition: all .2s;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.circle-second {
+    font-size: 9px;
+    left: 50%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+
+.circleOne {
+    font-size: 9px;
+    left: 49%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+
+.ab {
+    left: 50%;
+    font-size: 9px;
+    cursor: pointer;
+    color: white;
+    background: white;
+}
+
+
+/* News Event Section Closed*/
+
+
+
+
+
+
+
+/* Contact Section */
+
+
+#contact-section {
+    margin: 75px 0px;
+}
+
+.contact-head {
+    text-align: center;
+
+}
+
+.contact-head h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 44px 0px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 86px 0px;
+}
+
+
+.details-left p {
+    margin: 20px 0px;
+    font-size: 14px;
+}
+
+.details-left p:nth-child(2) {
+    cursor: pointer;
+    width: fit-content;
+
+}
+
+
+.details-form input {
+    padding: 10px 36px;
+    margin: 8px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.details-form ::placeholder {
+    font-size: 14px;
+    color: black;
+}
+
+
+.details-form #btn {
+    padding: 16px 0px;
+    width: 100%;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.details-form #btn:hover {
+    background: #747272;
+}
+
+
+#Subject {
+    width: 100%;
+}
+
+.details-form textarea {
+    padding: 10px 16px;
+    margin: 16px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.details-form textarea:hover {
+    border: 1px solid black;
+
+}
+
+.details-form input:hover {
+    border: 1px solid black;
+}
+
+
+
+
+
+
+/* Contact Section Closed */
+
+
+
+/* Map Section  */
+
+#map-section {
+    margin: 164px 0px;
+}
+
+
+
+/* Map Section  Closed*/
+
+
+
+/* social-section */
+
+#social-section {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+#social-section img {
+    width: 22px;
+}
+
+
+/* social-section Closed */
+
+
+
+
+
+
+
+
+
+
+
+/* footer-section */
+
+#footer-section {
+    width: 100%;
+    background: #f8f8f2;
+    text-align: center;
+    margin: 75px 0px;
+    padding: 10px;
+}
+
+
+
+#footer-section p:nth-child(1) {
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+#footer-section p:nth-child(2) {
+    font-size: 8px;
+    color: #747272;
+}
+
+
+
+/* footer-section Closed */

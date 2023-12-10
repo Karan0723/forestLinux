@@ -1,0 +1,325 @@
+@media screen and (max-width:768px) {
+
+    /* Header Section  */
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+
+    #header-section {
+        width: 100%;
+        padding: 30px 0px 100px 0px;
+        margin: 0px 0px 100px 0px;
+        background-color: #f8f8f2;
+    }
+
+    .logo {
+        width: fit-content;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .navbar {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+
+    }
+
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateY(-200px);
+        transition: all .2s;
+    }
+
+
+    .header-main i {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-size: 28px;
+    }
+
+    .fa-xmark {
+        visibility: hidden;
+    }
+
+
+    .header-main h1 {
+        font-size: 42px;
+        margin: 16px 0px;
+        color: #fe7259;
+    }
+
+
+    .header-main h3 {
+        font-size: 24px;
+        margin: 16px 0px;
+
+
+    }
+
+    .header-main img {
+        width: 100%;
+    }
+
+
+
+    /* Header Section  Closed */
+
+
+    /* About section  */
+
+
+    #about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px 40px 0px;
+
+    }
+
+    .about-details {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background-color: #f8f8f2;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        padding: 60px 10px 10px 10px;
+
+    }
+
+    .about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* About section  Closed */
+
+
+
+
+    /* Learn Program Section  */
+
+
+    .learn-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: url(assest/image/11062b_e55321c53b02478b9bafa28958160488f000\ \(1\).webp);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        text-align: center;
+        margin-bottom: 40px;
+        overflow: hidden;
+
+    }
+
+
+    .learn-card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+    .card2 {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        text-align: center;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+
+
+    /* Learn Program Section  Closed */
+
+
+
+
+    /* Testimonials section */
+
+
+    #testi-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 100px 0px 100px 0px;
+    }
+
+    .testi-details {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background-color: #f8f8f2;
+        width: 100%;
+        height: fit-content;
+        text-align: justify;
+        padding: 60px 40px 60px 30px;
+    }
+
+
+    /* Testimonials section Closed */
+
+
+
+
+
+
+    /* News Event Section */
+
+
+    .slide1,
+    .slide2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all .5s;
+    }
+
+    .slide-controls button:nth-child(1) {
+        position: absolute;
+        top: 50%;
+        left: 16px;
+    }
+
+    .slide-controls button:nth-child(2) {
+        position: absolute;
+        top: 50%;
+        right: 16px;
+    }
+
+
+
+    /* News Event Section Closed */
+
+
+    /* Contact Section  */
+
+    .contact-details {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 86px 0px;
+    }
+
+    .details-form input {
+        width: 100%;
+        padding: 10px 0px;
+        margin: 8px 10px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .details-left p:nth-child(2) {
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .details-form textarea {
+        padding: 10px 0px;
+        margin: 16px 10px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+
+    .details-form #btn {
+        padding: 16px 40px;
+        width: 100%;
+        margin: 16px 10px;
+        border: none;
+        background: black;
+        color: white;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+
+
+
+
+    /* Contact Section Closed */
+
+
+
+    /* Map Section  */
+
+
+
+
+    #map-section {
+        width: 100%;
+        margin: 164px 0px;
+    }
+
+
+
+
+    /* Map Section  Closed */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
